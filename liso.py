@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd 
+
 
 def campo_disco_infinito(x, y, z, sigma):
   """
@@ -43,8 +45,8 @@ print(f"  x: {campo[0]} m/s^2")
 print(f"  y: {campo[1]} m/s^2")
 print(f"  z: {campo[2]} m/s^2")
 
-
 # Constantes
 G = 6.67430e-11 # m^3 kg^-1 s^-2
 sigma = 1.17e10 # kg/m^2
 
+#sapa 
